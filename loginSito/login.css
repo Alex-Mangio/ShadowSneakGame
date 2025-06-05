@@ -1,0 +1,114 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #71797E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  @keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+  
+  .login-box {
+    background: #ffffff;
+    padding: 60px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+    border-radius: 15px;
+    width: 100%;
+    max-width: 600px; 
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 45px; 
+    color: #5a3e7b;
+    margin-bottom: 30px; 
+    font-weight: 600;
+  }
+  
+  .textbox {
+    margin-bottom: 30px; 
+    position: relative;
+    width: 93.8%;
+  }
+  
+  .textbox input {
+    width: 100%;
+    padding: 18px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+  
+  .textbox input:focus {
+    border-color: #5a3e7b;
+  }
+  
+  .eye-icon {
+    position: absolute;
+    right: 1px;
+    top: 50%;
+    transform: translateY(-52%);
+    font-size: 20px;
+    cursor: pointer;
+    color: #5a3e7b;
+  }
+
+  .submit-btn button {
+    width: 100%;
+    padding: 18px; 
+    background-color: #5a3e7b;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    font-size: 20px; 
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-btn button:hover {
+    background-color: #32174D;
+  }
+  
+  .signup-link p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 20px;
+  }
+  
+  .signup-link a {
+    color: #5a3e7b;
+    text-decoration: none;
+  }
+  
+  .signup-link a:hover {
+    text-decoration: underline;
+  }
+
+  .error-message {
+  color: red;
+  margin-bottom: 10px;
+  animation: fadeIn 0.3s ease;
+}

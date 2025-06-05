@@ -1,0 +1,54 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#canvas {
+   display: block; 
+   background-color: grey;
+}
+
+#message {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(0, 0, 0, 0.7);
+  color: white;
+  font-size: 24px;
+  padding: 20px;
+  border-radius: 10px;
+  display: none;
+  z-index: 1000;
+}
+
+#modal{
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw; height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: none;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 40px;
+  flex-direction: column;
+   z-index: 10;
+}
+
+button{
+  margin-top: 20px; 
+  padding: 10px 20px; 
+  font-size: 20px;
+  background-color: #FFC107;
+}
+
+button:hover {
+  background-color: #e0a500; 
+}
+
+button:active {
+  background-color: #c89500; 
+  transform: scale(0.98); 
+}
