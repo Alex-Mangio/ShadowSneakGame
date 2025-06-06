@@ -29,6 +29,12 @@
 
     <div class="menu">
       <button class="play-button" id="openModalBtn">PLAY</button><br>
+    <form action="../recensioneSito/recensione.php" method="get">
+      <button class="play-button" type="submit">VOTACI</button>
+    </form>
+    <form action="logout.php" method="post">
+      <button class="play-button" type="submit">LOGOUT</button>
+    </form>
     </div>
 
   <div id="modal" class="modal">
